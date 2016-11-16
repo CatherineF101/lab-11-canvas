@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body onload="draw()">
+<canvas id="sketch" width="400" height="300">
+</canvas>
+<script>
+
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	// draw stuff here!
+	function draw(){
+	//square
+	context.fillRect(50,30,100,100);
+	context.beginPath();
+	context.arc(300,100,100,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+
+	//DRAWING CODE HERE!
+	//DRAWING CODE HERE!
+	//DRAWING CODE HERE!
+	//DRAWING CODE HERE!
+	//DRAWING CODE HERE!
+	//DRAWING CODE HERE!
+}
+
+</script>
+</body>
+</html>
