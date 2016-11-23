@@ -1,0 +1,99 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body onload="draw()">
+<canvas id="sketch" width="400" height="300">
+</canvas>
+<script>
+	var sketch = document.getElementById('sketch');
+	var context = sketch.getContext("2d");
+	// draw stuff here!
+	function draw(){
+	
+	context.fillStyle = "#ff0000";
+	context.beginPath();
+	context.arc(300,100,100,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	context.fillStyle = "#C00000";
+	context.beginPath();
+	context.arc(300,100,90,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+
+	context.fillStyle = "#A00000";
+	context.beginPath();
+	context.arc(300,100,80,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+
+	context.fillStyle = "#800000";
+	context.beginPath();
+	context.arc(300,100,70,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+
+	context.fillStyle = "#600000";
+	context.beginPath();
+	context.arc(300,100,60,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+
+	context.fillStyle = "#380000 ";
+	context.beginPath();
+	context.arc(300,100,50,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	context.fillStyle = "#0066FF";
+	context.beginPath();
+	context.arc(100,100,100,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+	context.fillStyle = "#0033FF";
+	context.beginPath();
+	context.arc(100,100,90,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+
+	context.fillStyle = "#0033CC";
+	context.beginPath();
+	context.arc(100,100,80,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+
+	context.fillStyle = "#003399";
+	context.beginPath();
+	context.arc(100,100,70,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+
+	context.fillStyle = "#0000FF";
+	context.beginPath();
+	context.arc(100,100,60,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+
+	context.fillStyle = "#0000CC";
+	context.beginPath();
+	context.arc(100,100,50,0,2*Math.PI, true);
+	context.closePath();
+	context.fill();
+
+
+	}
+
+</script>
+</body>
+</html>
