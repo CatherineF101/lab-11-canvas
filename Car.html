@@ -13,6 +13,7 @@ var sketch = document.getElementById('sketch');
 var context = sketch.getContext("2d");
 function draw(){
 	//draw cars
+	
 	context.fillStyle = "#000000";
 	context.fillRect(25,0,100,30);
 	context.fillStyle = "#000000";
@@ -20,15 +21,18 @@ function draw(){
 	
 	context.fillStyle = "#FF0000"
 	context.beginPath();
-		context.arc(25,60, 15,0,  2*Math.PI, true);
-		context.closePath();
-		context.fill();
-		context.fillStyle = "#FF0000"
+	context.arc(25,60, 15,0,  2*Math.PI, true);
+	context.closePath();
+	context.fill();
+	
+	context.fillStyle = "#FF0000"
 	context.beginPath();
-		context.arc(100,60, 15,0,  2*Math.PI, true);
-		context.closePath();
-		context.fill();
+	context.arc(100,60, 15,0,  2*Math.PI, true);
+	context.closePath();
+	context.fill();
 }
+
+
 </script>
 </body>
 </html>
